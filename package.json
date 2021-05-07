@@ -1,0 +1,35 @@
+{
+  "name": "bexs-backend",
+  "version": "0.0.1",
+  "description": "nodejs express inline graph",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "readline": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ramalmeida/bexs-backend.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "inline",
+    "graph"
+  ],
+  "author": "Ramon Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramalmeida/bexs-backend/issues"
+  },
+  "homepage": "https://github.com/ramalmeida/bexs-backend#readme"
+}
