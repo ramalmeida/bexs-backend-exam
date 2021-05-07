@@ -11,15 +11,15 @@ run app
     node server.js rotas.csv
 ```
 
-test
+test / do by jest
 ```
 npm test
 ```
 
 ## Api 
-
+```
 port = 4001
-
+```
 [postman ->](https://www.getpostman.com/collections/3e1c93c3657a6674cbef)
 
 Response
@@ -41,7 +41,6 @@ status code 200/payload:
 
 
 ##  Folder structure
-
 ```
 ├── README.MD
 ├── rotas.csv
