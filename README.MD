@@ -4,7 +4,7 @@
 Install modules
 
 ```
-    npm i
+npm i
 ```
 
 run app
