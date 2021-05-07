@@ -8,11 +8,11 @@ npm i
 ```
 
 run app
-```
-    node server.js rotas.csv
+```                          or  
+    node server.js rotas.csv || npm run start rotas.csv
 ```
 
-test / do by jest
+tests / do by jest
 ```
 npm test
 ```
@@ -21,11 +21,11 @@ npm test
 ```
 port = 4001
 ```
-[postman ->](https://www.getpostman.com/collections/3e1c93c3657a6674cbef)
+[Collection postman](https://www.getpostman.com/collections/3e1c93c3657a6674cbef)
 
 Response
 
-status code 200/payload:
+status code 200:
 ```
 {
     "bestPath": "<origin> - <inner> - <inner> - <target>",
@@ -33,7 +33,7 @@ status code 200/payload:
 }
 ```
 
-status code 200/payload:
+status code 200:
 ```
 {
     "response": "Route included"
